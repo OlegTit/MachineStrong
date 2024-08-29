@@ -1,0 +1,59 @@
+
+.container_map_page{
+    width:100%;
+    background-color:black;
+    background-position:center;
+    background-repeat:repeat;
+}
+
+.map_title_block {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.map_text {
+    font-size: 80px;
+    font-weight: bold;
+    background: linear-gradient(to top, #ff5300, #ff7200);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 0px 0px 0px 100px;
+}
+
+.map_place_text {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to top, #ff5300, #ff7200);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin:20px 0px 10px 0px;
+
+}
+
+.map_road_text {
+    font-size: 40px;
+    color: #d9d9d9;
+    margin:0px 0px 0px 220px;
+}
+
+.map_place_item{
+    width:300px;
+    height:100px;
+    background-color:white;
+    border-radius:4px;
+    margin:10px 0px 0px 0px;
+}
+
+@media (max-width: 600px) {
+    .map_title_block {
+        align-items: center;
+    }
+
+    .map_title_block img{
+        margin:0px;
+    }
+}

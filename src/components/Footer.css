@@ -1,0 +1,27 @@
+.container_footer {
+    width: 100%;
+}
+
+.footer_content_block{
+    background-color:rgb(245, 245, 245);
+    display:flex;
+    margin:0 auto;
+    flex-wrap:wrap;
+    padding:20px;
+    justify-content:center;
+}
+
+.footer_content_block_item{
+    display:flex;
+    margin:10px;
+}
+
+.footer_img{
+    width:30px;
+    height:30px;
+    margin:5px;
+}
+
+.footer_p {
+    margin: 5px;
+}
